@@ -1,6 +1,6 @@
 # RoboTrilha - Projeto IC
 
-PT-BR | [English](#EN)
+PT-BR | [EN](#EN)
 
 ## PT-BR
 
