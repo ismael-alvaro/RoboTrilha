@@ -1,4 +1,4 @@
-# RoboTrilha - Projeto IC
+# RoboTrilha
 
 PT-BR | [EN](#EN)
 
