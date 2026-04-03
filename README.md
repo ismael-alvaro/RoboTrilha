@@ -13,7 +13,7 @@ Este repositorio contem varias versoes de codigo para um carrinho robotico basea
 
 Os arquivos representam iteracoes do projeto (testes, tentativas e versoes consideradas corretas/oficiais).
 
-> **Versao final funcional:** `codigo da vitoria`.
+> **Versao final funcional:** `codigo da vitoria.ino`.
 
 ### Tecnologias e plataforma
 - Arduino (linguagem C/C++ para microcontrolador)
@@ -21,13 +21,13 @@ Os arquivos representam iteracoes do projeto (testes, tentativas e versoes consi
 - Funcoes tipicas usadas: `digitalWrite`, `analogWrite`, `pulseIn`, `attachInterrupt`
 
 ### Estrutura do repositorio
-- `codigooficial`: versao principal com logica de movimento e desvio de obstaculo.
-- `codigo da vitoria`: **versao final**, com ajuste de velocidade e leitura de distancia.
-- `codigo CORRETO`: versao alternativa considerada estavel em alguns cenarios.
-- `codigo teste`: variacao para experimentos.
-- `Possivel solucao pra ele passar do obstaculo`: tentativa focada em contornar obstaculos.
-- `talvez seja uma possibilidade`: prototipo curto para validacoes.
-- `Teste_alteracao1`: arquivo de experimentacao adicional.
+- `codigooficial.ino`: versao principal com logica de movimento e desvio de obstaculo.
+- `codigo da vitoria.ino`: **versao final**, com ajuste de velocidade e leitura de distancia.
+- `codigo CORRETO.ino`: versao alternativa considerada estavel em alguns cenarios.
+- `codigo teste.ino`: variacao para experimentos.
+- `Possivel solucao pra ele passar do obstaculo.ino`: tentativa focada em contornar obstaculos.
+- `talvez seja uma possibilidade.ino`: prototipo curto para validacoes.
+- `Teste_alteracao1.ino`: arquivo de experimentacao adicional.
 
 ### Sensores e atuadores (resumo)
 - Sensor infravermelho (`infra`) para detectar linha.
@@ -44,7 +44,7 @@ Os arquivos representam iteracoes do projeto (testes, tentativas e versoes consi
 7. Monitore o comportamento e ajuste delays/velocidades se necessario.
 
 ### Observacoes
-- Alguns nomes de arquivo estao sem extensao. Se quiser, voce pode renomear para `.ino` para facilitar no Arduino IDE.
+- Todos os sketches ja estao com extensao `.ino` para facilitar o uso no Arduino IDE.
 - Como ha varias versoes, compare os arquivos antes de definir uma base final.
 
 ---
@@ -60,7 +60,7 @@ This repository contains multiple code versions for an Arduino-based robotic car
 
 The files represent project iterations (tests, attempts, and versions considered correct/official).
 
-> **Final working version:** `codigo da vitoria`.
+> **Final working version:** `codigo da vitoria.ino`.
 
 ### Tech stack and platform
 - Arduino (C/C++ for microcontrollers)
@@ -68,13 +68,13 @@ The files represent project iterations (tests, attempts, and versions considered
 - Common functions used: `digitalWrite`, `analogWrite`, `pulseIn`, `attachInterrupt`
 
 ### Repository structure
-- `codigooficial`: main version with movement and obstacle-avoidance logic.
-- `codigo da vitoria`: **final version**, with speed tuning and distance reading.
-- `codigo CORRETO`: alternative version considered stable in some scenarios.
-- `codigo teste`: experimental variation.
-- `Possivel solucao pra ele passar do obstaculo`: attempt focused on passing obstacles.
-- `talvez seja uma possibilidade`: short prototype for quick validation.
-- `Teste_alteracao1`: additional experimentation file.
+- `codigooficial.ino`: main version with movement and obstacle-avoidance logic.
+- `codigo da vitoria.ino`: **final version**, with speed tuning and distance reading.
+- `codigo CORRETO.ino`: alternative version considered stable in some scenarios.
+- `codigo teste.ino`: experimental variation.
+- `Possivel solucao pra ele passar do obstaculo.ino`: attempt focused on passing obstacles.
+- `talvez seja uma possibilidade.ino`: short prototype for quick validation.
+- `Teste_alteracao1.ino`: additional experimentation file.
 
 ### Sensors and actuators (summary)
 - Infrared sensor (`infra`) for line detection.
@@ -91,5 +91,5 @@ The files represent project iterations (tests, attempts, and versions considered
 7. Monitor behavior and tune delays/speeds as needed.
 
 ### Notes
-- Some filenames have no extension. You may rename them to `.ino` for easier Arduino IDE usage.
+- All sketches already use the `.ino` extension for easier Arduino IDE usage.
 - Since there are multiple versions, compare files before choosing your final baseline.
