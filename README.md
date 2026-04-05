@@ -1,53 +1,6 @@
 # RoboTrilha
 
-PT-BR | [EN](#EN)
-
-## PT-BR
-
-### Visao geral
-Este repositorio contem varias versoes de codigo para um carrinho robotico baseado em Arduino (Car8), com foco em:
-- seguimento de linha usando sensor infravermelho;
-- controle de motores por PWM;
-- leitura de distancia com sensor ultrassonico;
-- testes de logica para desvio de obstaculos.
-
-Os arquivos representam iteracoes do projeto (testes, tentativas e versoes consideradas corretas/oficiais).
-
-> **Versao final funcional:** `codigo da vitoria.ino`.
-
-### Tecnologias e plataforma
-- Arduino (linguagem C/C++ para microcontrolador)
-- Arduino IDE
-- Funcoes tipicas usadas: `digitalWrite`, `analogWrite`, `pulseIn`, `attachInterrupt`
-
-### Estrutura do repositorio
-- `codigooficial.ino`: versao principal com logica de movimento e desvio de obstaculo.
-- `codigo da vitoria.ino`: **versao final**, com ajuste de velocidade e leitura de distancia.
-- `codigo CORRETO.ino`: versao alternativa considerada estavel em alguns cenarios.
-- `codigo teste.ino`: variacao para experimentos.
-- `Possivel solucao pra ele passar do obstaculo.ino`: tentativa focada em contornar obstaculos.
-- `talvez seja uma possibilidade.ino`: prototipo curto para validacoes.
-- `Teste_alteracao1.ino`: arquivo de experimentacao adicional.
-
-### Sensores e atuadores (resumo)
-- Sensor infravermelho (`infra`) para detectar linha.
-- Sensor ultrassonico (`ultraout`/`ultrain`) para medir distancia.
-- Dois motores DC com pinos de direcao e velocidade (PWM).
-
-### Como usar
-1. Abra o Arduino IDE.
-2. Crie ou abra um sketch.
-3. Copie o conteudo do arquivo desejado deste repositorio para o sketch.
-4. Ajuste pinos e constantes conforme seu hardware real.
-5. Selecione a placa/porta correta.
-6. Compile e envie para o Arduino.
-7. Monitore o comportamento e ajuste delays/velocidades se necessario.
-
-### Observacoes
-- Todos os sketches ja estao com extensao `.ino` para facilitar o uso no Arduino IDE.
-- Como ha varias versoes, compare os arquivos antes de definir uma base final.
-
----
+EN | [PT-BR](#PT-BR)
 
 ## EN
 
@@ -92,4 +45,51 @@ The files represent project iterations (tests, attempts, and versions considered
 
 ### Notes
 - All sketches already use the `.ino` extension for easier Arduino IDE usage.
-- Since there are multiple versions, compare files before choosing your final baseline.
+
+---
+
+## PT-BR
+
+[EN](#RoboTrilha) | PT-BR
+
+### Visao geral
+Este repositorio contem varias versoes de codigo para um carrinho robotico baseado em Arduino (Car8), com foco em:
+- seguimento de linha usando sensor infravermelho;
+- controle de motores por PWM;
+- leitura de distancia com sensor ultrassonico;
+- testes de logica para desvio de obstaculos.
+
+Os arquivos representam iteracoes do projeto (testes, tentativas e versoes consideradas corretas/oficiais).
+
+> **Versao final funcional:** `codigo da vitoria.ino`.
+
+### Tecnologias e plataforma
+- Arduino (linguagem C/C++ para microcontrolador)
+- Arduino IDE
+- Funcoes tipicas usadas: `digitalWrite`, `analogWrite`, `pulseIn`, `attachInterrupt`
+
+### Estrutura do repositorio
+- `codigooficial.ino`: versao principal com logica de movimento e desvio de obstaculo.
+- `codigo da vitoria.ino`: **versao final**, com ajuste de velocidade e leitura de distancia.
+- `codigo CORRETO.ino`: versao alternativa considerada estavel em alguns cenarios.
+- `codigo teste.ino`: variacao para experimentos.
+- `Possivel solucao pra ele passar do obstaculo.ino`: tentativa focada em contornar obstaculos.
+- `talvez seja uma possibilidade.ino`: prototipo curto para validacoes.
+- `Teste_alteracao1.ino`: arquivo de experimentacao adicional.
+
+### Sensores e atuadores (resumo)
+- Sensor infravermelho (`infra`) para detectar linha.
+- Sensor ultrassonico (`ultraout`/`ultrain`) para medir distancia.
+- Dois motores DC com pinos de direcao e velocidade (PWM).
+
+### Como usar
+1. Abra o Arduino IDE.
+2. Crie ou abra um sketch.
+3. Copie o conteudo do arquivo desejado deste repositorio para o sketch.
+4. Ajuste pinos e constantes conforme seu hardware real.
+5. Selecione a placa/porta correta.
+6. Compile e envie para o Arduino.
+7. Monitore o comportamento e ajuste delays/velocidades se necessario.
+
+### Observacoes
+- Todos os sketches ja estao com extensao `.ino` para facilitar o uso no Arduino IDE.
